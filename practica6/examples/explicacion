@@ -1,0 +1,49 @@
+     x;
+  float y = 1.2;
+  {
+      int z = 1;
+      x = 1 + 2;
+      y = x * 2;
+  }
+
+
+   .- -> int
+   ..-. -> float
+   .. -> if
+   .-- -> while
+
+Simbolos
+   -... -> =
+   .-.- -> +
+   -.... -> -
+   --.- -> *
+   ..-- -> /
+   ...- -> ;
+   -.-. -> {
+   -.-.- -> }
+   .--. -> (
+   .--.- -> )
+
+Prefijos:
+   ..--.. -> inicio de identificador
+   -.-.-- -> inicio de entero
+   .-..-. -> inicio de float
+
+
+
+  .- ..--../-..- ...-
+
+  .- -> int
+  ..--../-..- -> identificador x
+  ...- -> ;
+
+SyntaxError
+.- ..--../-..- -.-.--/.---- ...-
+
+   .- -> int
+   ..--../-..- -> identificador x 
+   -.-.--/.---- -> entero 1
+   ...- -> ;
+
+   .- ..--../-..- ...-
+
